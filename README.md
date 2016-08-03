@@ -70,8 +70,8 @@ project and you should be ready to go! It should look something like below:
 
     <VirtualHost *:80>
         ServerName zf2-app.localhost
-        DocumentRoot /path/to/zf2-app/public
-        <Directory /path/to/zf2-app/public>
+        DocumentRoot /var/www/html/zf2/ZendSkeletonApplication/public
+        <Directory /var/www/html/zf2/ZendSkeletonApplication/public>
             DirectoryIndex index.php
             AllowOverride All
             Order allow,deny
